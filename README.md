@@ -54,6 +54,11 @@ pip install -r requirements.txt
 ### Option 3
 - <font color='red'>IMPORTANT</font>
   - Open `config.py`
+  - Add the following two lines:
+    ```python
+    os.environ["OPENAI_API_KEY"] = "your key"
+    os.environ["TAVILY_API_KEY"] = "your key"
+    ```
   - Enter your OpenAI API key in `os.environ["OPENAI_API_KEY"]`
   - Enter your Tavily API key in `os.environ["TAVILY_API_KEY"]`
   - You can apply for Tavily API key from this [link](https://tavily.com/)
