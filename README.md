@@ -64,16 +64,8 @@ pip install -r requirements.txt
   - `main_multimodal.ipynb`
 
 ## Notes
-- All the other datasets are available through this [link](https://mypikpak.com/s/VO4nTQ6jxHed_-QbUrdlmSBko1).
 - Feel free to modify the hyper-parameters in the `config.py`
-- The default number of clients is 10.
 - Please don't hesitate to reach out if you have any questions.
-- All the evaluation results by ourselves are presented in:
-  - `./Results/global_modal_accuracy.json`
-  - `./Results/client_modal_accuracy.json`
-  - `./Results/communication_cost.json`
-  - `./Results/memory_usage.json`
-  - `./Results/wall_clock_time.json`
 
 ## Citation
 ```
