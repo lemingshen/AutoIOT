@@ -34,7 +34,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 
 
 programming_language = "Python"
-
+os.environ["OPENAI_API_KEY"] = "your key"
+os.environ["TAVILY_API_KEY"] = "your key"
 session_configuration = {"configurable": {"session_id": "<AutoNLP>"}}
 session_configuration1 = {"configurable": {"session_id": "<AutoNLP1>"}}
 session_configuration2 = {"configurable": {"session_id": "<AutoNLP2>"}}
