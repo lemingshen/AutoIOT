@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ### Option 3
 - <font color='red'>IMPORTANT</font>
   - Open `config.py`
-  - Add the following two lines:
+  - Add your own key in the following two lines:
     ```python
     os.environ["OPENAI_API_KEY"] = "your key"
     os.environ["TAVILY_API_KEY"] = "your key"
