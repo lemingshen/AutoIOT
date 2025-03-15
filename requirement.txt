@@ -1,0 +1,6 @@
+langchain[openai]
+langgraph
+langchain-core
+langchain-experimental
+langchain-community
+tavily-python
