@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ## Citation
 ```
-@inproceedings{shen2024fedconv,
+@inproceedings{shen2025autoiot,
   title={AutoIOT: LLM-Driven Automated Natural Language Programming for AIoT Applications},
   author={Shen, Leming and Yang, Qiang and Zheng, Yuanqing and Li, Mo},
   booktitle={Proceedings of the 31st Annual International Conference on Mobile Computing and Networking},
