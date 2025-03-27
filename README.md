@@ -22,23 +22,28 @@ pip install -r requirements.txt
 
 ### Option 1
 - We directly provide the generated code by AutoIOT for the heartbeat detection, IMU-based HAR, mmWave-based HAR, and multimodal HAR.
+- Make sure that your PC has installed all necessary Python packages for those generated code segments.
 - To implement heartbeat detection, you can try:
   ```bash
+  pip install wfdb numpy scipy
   cd ./generated code
   python ECG.py --input_file "./AutoIOT_dataset/ECG"
   ```
 - To implement IMU-based HAR, you can try:
   ```bash
+  pip install pandas numpy scipy scikit-learn torch
   cd ./generated code
   python IMU.py --input_file "./AutoIOT_dataset/IMU/WISDM_ar_v1.1_raw.txt"
   ```
 - To implement mmWave-based HAR, you can try:
   ```bash
+  pip install numpy scikit-learn torch tqdm
   cd ./generated code
   python ECG.py --input_file "./AutoIOT_dataset/mmWave"
   ```
 - To implement multimodal HAR, you can try:
   ```bash
+  pip install numpy scikit-learn torch tqdm matplotlib seaborn
   cd ./generated code
   python ECG.py --input_file "./AutoIOT_dataset/multimodal"
   ```
