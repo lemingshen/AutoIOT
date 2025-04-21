@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Dataset Preparation
-- Download the dataset from this [link](https://mypikpak.com/s/VOLO45qfpLUd1wEMUhhhoJCyo1).
+- Download the dataset from this [link](https://mypikpak.com/s/VOOMZ8bBd1AtByZBwyeqLvLDo1).
 - Move the folder named 'AutoIOT_dataset' to the root of this project.
 
 ### Option 1
