@@ -1,6 +1,6 @@
-langchain[openai]
-langgraph
-langchain-core
-langchain-experimental
-langchain-community
-tavily-python
+langchain[openai]==0.1.20
+langchain-core==0.1.53
+langchain-community==0.0.38
+langchain-experimental==0.0.61
+langgraph==0.0.55
+tavily-python==0.3.0
